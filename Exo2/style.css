@@ -1,0 +1,16 @@
+.round{
+  margin-top: 1%;
+  width: 10%;
+  height: 100px;
+  background-color: lightgrey;
+  border-radius: 50%;
+}
+.container{
+  display: flex;
+  /*
+  l'espace est le même entre les tous les éléments
+  les éléments occupent tout l'espace disponible horizontalment
+  pas d'espace entre les bords et le premier/dernier éléments
+  */
+  justify-content: space-between;
+}

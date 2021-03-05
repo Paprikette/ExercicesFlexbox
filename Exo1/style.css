@@ -1,0 +1,15 @@
+.round{
+  margin-top: 1%;
+  width: 10%;
+  height: 100px;
+  background-color: lightgrey;
+  border-radius: 50%;
+}
+.container
+  /*
+  aligne les éléments sur l'axe horizontale
+  défnit l'occupation de l'élément flex sur on axe, ici a la fin de la rangée
+  */
+ display: flex;
+ flex-direction: row-reverse;
+}
